@@ -30,7 +30,7 @@ export default class App extends React.Component {
 	render() {
 		if (!this.state.fontsLoaded) {
 			return (
-				<View>
+				<View style={styles.spin}>
 					<Spinner />
 				</View>
 			);
@@ -45,8 +45,10 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
 	spin: {
-		display: 'flex',
-		justifyContent: 'center',
-		alignItems: 'center'
+		position: 'absolute',
+		top: 0,
+		bottom: 0,
+		right: 0,
+		left: 0
 	}
-})
+}) 

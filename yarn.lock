@@ -4663,7 +4663,7 @@ react-native-gesture-responder@0.1.1:
   dependencies:
     react-timer-mixin "^0.13.3"
 
-"react-native-lightbox@github:shoutem/react-native-lightbox#v0.7.1":
+react-native-lightbox@shoutem/react-native-lightbox#v0.7.1:
   version "0.7.1"
   resolved "https://codeload.github.com/shoutem/react-native-lightbox/tar.gz/bfecd1829abb8dfdcee5829c4e9a701a69d82a87"
   dependencies:
@@ -4731,7 +4731,7 @@ react-native-scroller@0.0.6:
     color "^2.0.1"
     lodash "^4.16.6"
 
-"react-native-transformable-image@github:shoutem/react-native-transformable-image#v0.0.20":
+react-native-transformable-image@shoutem/react-native-transformable-image#v0.0.20:
   version "0.0.20"
   resolved "https://codeload.github.com/shoutem/react-native-transformable-image/tar.gz/ef2e93fa9425bbb479bccec64d165ec85e76e949"
   dependencies:

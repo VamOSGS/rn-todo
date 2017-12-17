@@ -7,3 +7,5 @@ const mapDispatchToProps = dispatch => ({
 });
 
 const FieldContainer = connect(null, mapDispatchToProps)(Field);
+
+export default FieldContainer;

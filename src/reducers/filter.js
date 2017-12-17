@@ -1,5 +1,5 @@
 import { FILTER } from '../constants';
-const initialState = 'DONE';
+const initialState = 'ALL';
 
 export default (state = initialState, action) => {
 	switch (action.type) {

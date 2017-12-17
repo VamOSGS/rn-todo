@@ -13,11 +13,7 @@ export default class componentName extends Component {
 						</Button>
 					}
 					centerComponent={<Title>TODO</Title>}
-					share={{
-						link: 'https://github.com/VamOSGS',
-						text: 'My Github',
-						title: 'Gegham Samvelyan (VamOSGS)'
-					}}
+					
 				/>
 			</View>
 		);
@@ -27,7 +23,9 @@ export default class componentName extends Component {
 const styles = StyleSheet.create({
 	main: {
 		height: 80,
-		borderWidth: 0.5,
-		borderColor: '#d6d7da',
-	}	
+		borderWidth: 1, 
+		marginTop: 1, 
+		marginBottom: -8,
+		borderColor: '#d6d7da', 
+	}	 
 })

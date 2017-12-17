@@ -25,11 +25,11 @@ export default class Field extends Component {
 		this.setState({ value: e.target.value });
 	}
 	handleSubmit() {
-		if (this.state.value != '') {
-			console.log('FUCK');
-			this.props.onAdd(this.state.value);
-			this.setState({ value: '' });
-		}
+		console.log(this.refs)
+		// if (this.state.value != '') {
+		// 	this.props.onAdd(this.state.value);
+		// 	this.setState({ value: '' });
+		// }
 	}
 	render() {
 		return (
@@ -41,7 +41,9 @@ export default class Field extends Component {
 					<TextInput
 						style={{ width: w.width - 100, height: 50 }}
 						placeholder={'Enter your task text'}
-						onChange={this.handleChange}
+						value={this.state.value} 
+						onChange={this.handleChange} 
+						ref={'aa'}
 					/>
 					<Button
 						style={{ marginTop: -10 }}
